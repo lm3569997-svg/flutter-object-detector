@@ -1,0 +1,27 @@
+
+name: flutter_object_detector
+description: Offline object detection using TensorFlow Lite and EfficientDet Lite0.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  tflite_flutter: ^0.12.1
+  image_picker: ^1.1.2
+  image: ^4.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/efficientdet_lite0.tflite
